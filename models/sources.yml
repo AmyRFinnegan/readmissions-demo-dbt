@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: dbt_finnegan
+  - name: readmissions_raw
     schema: dbt_afinnegan
     tables:
       - name: patients
