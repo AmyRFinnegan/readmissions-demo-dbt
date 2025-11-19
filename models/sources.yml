@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: readmissions_demo
+    schema: readmissions_demo
+    tables:
+      - name: patients
+      - name: encounters
