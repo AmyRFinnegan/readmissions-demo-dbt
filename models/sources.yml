@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: readmissions_demo
-    schema: readmissions_demo
+    schema: dbt_afinnegan
     tables:
       - name: patients
       - name: encounters
