@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: fact_readmissions
+    columns:
+      - name: encounter_id
+        tests:
+          - not_null
+      - name: is_30day_readmit
+        tests:
+          - accepted_values:
+              values: [0, 1]
