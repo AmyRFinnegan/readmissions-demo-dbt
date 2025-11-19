@@ -3,6 +3,9 @@ version: 2
 models:
   - name: fact_readmissions
     columns:
+      - name: patient_id
+        tests:
+          - not_null
       - name: encounter_id
         tests:
           - not_null
@@ -10,3 +13,4 @@ models:
         tests:
           - accepted_values:
               values: [0, 1]
+
