@@ -2,6 +2,9 @@ name: 'readmissions_demo'
 version: '1.0'
 config-version: 2
 
+flags:
+  partial_parse: false
+
 profile: 'readmissions_demo'
 
 model-paths: ["models"]
