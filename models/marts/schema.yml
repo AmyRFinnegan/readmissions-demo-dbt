@@ -6,9 +6,11 @@ models:
       - name: patient_id
         tests:
           - not_null
+
       - name: encounter_id
         tests:
           - not_null
+
       - name: is_30day_readmit
         description: "1 if the patient was readmitted within 30 days"
         tests:
