@@ -14,7 +14,7 @@ models:
       - name: is_30day_readmit
         description: "1 if the patient was readmitted within 30 days"
         tests:
-          - accepted_values:
+          - accepted_values_strict:
               arguments:
                 values: [0, 1]
 
